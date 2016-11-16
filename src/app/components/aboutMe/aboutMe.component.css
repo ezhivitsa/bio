@@ -1,0 +1,83 @@
+.layout {
+  display: flex;
+}
+
+.photo {
+  max-width: 250px;
+  flex-shrink: 6;
+}
+
+.photo img {
+  display: block;
+  width: 100%;
+}
+
+.info {
+  flex-grow: 5;
+  padding-left: 20px;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 0 0 20px 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 2em;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #3f51b5;
+  font-weight: normal;
+}
+
+.skills {
+  padding: 0;
+}
+
+.skills li {
+  font-size: 1.2em;
+  padding-bottom: 5px;
+  list-style: none;
+}
+
+.skills li:before {
+  content: '●';
+  color: #3f51b5;
+  padding-right: 10px;
+}
+
+md-card {
+  margin: 20px 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+md-card:first-child {
+  margin-top: 0;
+}
+
+md-card:last-child {
+  margin-bottom: 0;
+}
+
+md-card p {
+  line-height: 23px;
+}
+
+.paralect-link {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.paralect-link:hover {
+  text-decoration: underline;
+}
+
+.experience {
+  padding-left: 20px;
+}
+
+.experience li {
+  padding-bottom: 5px;
+}

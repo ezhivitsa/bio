@@ -1,0 +1,16 @@
+.title {
+  display: flex;
+  justify-content: flex-start;
+  margin: -24px -24px 20px;
+  padding: 15px 20px;
+  background: #ff4081;
+  color: white;
+}
+
+.text {
+  padding-left: 7px;
+}
+
+.material-icons {
+  font-size: 27px;
+}

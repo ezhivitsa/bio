@@ -1,0 +1,45 @@
+dl {
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 4px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+dl:last-child {
+  border-bottom: 0px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+dt {
+  display: block;
+  width: 30%;
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #424242;
+}
+
+dd {
+  display: block;
+  width: 70%;
+  margin: 0;
+  font-size: 1em;
+}
+
+dd p {
+  margin: 0 0 5px 0;
+}
+
+dd p:last-child {
+  margin: 0;
+}
+
+dd a {
+  color: #01579B;
+  text-decoration: none;
+}
+
+dd a:hover {
+  text-decoration: underline;
+}

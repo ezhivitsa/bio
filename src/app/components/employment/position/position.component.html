@@ -1,0 +1,26 @@
+<div class="wrapper" [class.padding]="!isLast">
+  <div class="timeline">
+    <div class="time">
+      <span>{{start}}</span> - <span>{{end ? end : 'now'}}</span>
+    </div>
+    
+    <div class="line">
+      <button class="collapse" [class.close]="isHidden"
+        (click)="onHidden()"></button>
+    </div>
+  </div>
+
+  <div class="description">
+    <h3 [class.hidden]="isHidden">{{positionName}}</h3>
+
+    <div class="animation" [class.hidden]="isHidden">
+      <div class="period">
+        from {{start}} to {{end ? end : 'present day'}}
+      </div>
+
+      <div class="place" *ngIf="place">{{place}}</div>
+
+      <div class="text" *ngIf="text">{{text}}</div>
+    </div>
+  </div>
+</div>

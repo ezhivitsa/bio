@@ -1,0 +1,40 @@
+<md-sidenav-layout>
+  <md-sidenav #sidenav mode="over" [opened]="opened" class="app-sidenav">
+    <div class="title">
+      Evgeny Zhivitsa
+    </div>
+
+    <ul class="menu">
+      <li *ngFor="let item of menuItems">
+        <a href="#{{item.link}}" (click)="sidenav.close(); goToItem($event, item)">{{item.text}}</a>
+      </li>
+    </ul>
+  </md-sidenav>
+
+  <md-toolbar color="primary">
+    <button class="app-icon-button clear" (click)="sidenav.toggle()">
+      <i class="material-icons app-toolbar-menu">menu</i>
+    </button>
+
+    Autobiography of the Evgeny Zhivitsa
+
+    <span class="app-toolbar-filler"></span>
+  </md-toolbar>
+
+  <div class="app-content" id="about">
+    <about-me class="content-item"></about-me>
+  </div>
+
+  <div class="app-content" id="info">
+    <info class="content-item"></info>
+  </div>
+
+  <div class="app-content" id="employment">
+    <employment class="content-item"></employment>
+  </div>
+
+  <div class="app-content" id="education">
+    <education class="content-item"></education>
+  </div>
+
+</md-sidenav-layout>
