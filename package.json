@@ -9,8 +9,8 @@
     "test": "ng test",
     "pree2e": "webdriver-manager update",
     "e2e": "protractor",
-    "preinstall": "npm install -g http-server angular-cli",
-    "postinstall": "ng build --env=prod && mv dist/* ."
+    "preinstall": "npm install -g http-server",
+    "postinstall": "mv dist/* ."
   },
   "private": false,
   "engines": {
