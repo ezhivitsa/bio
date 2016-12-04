@@ -62306,8 +62306,12 @@ var Title = (function () {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return environment; });
+// The file contents for the current environment will overwrite these during build.
+// The build system defaults to the dev environment which uses `environment.ts`, but if you do
+// `ng build --env=prod` then `environment.prod.ts` will be used instead.
+// The list of which env maps to which file can be found in `angular-cli.json`.
 var environment = {
-    production: true
+    production: false
 };
 
 
@@ -65411,7 +65415,7 @@ module.exports = "<layout>\n</layout>"
 /* 711 */
 /***/ function(module, exports) {
 
-module.exports = "<md-card>\r\n  <div class=\"layout\">\r\n    <div class=\"photo\">\r\n      <img src=\"assets/images/photo.jpg\" alt=\"Evgeny Zhivitsa\">\r\n    </div>\r\n\r\n    <div class=\"info\">\r\n      <h1>Evgeny Zhivitsa</h1>\r\n      <h2>Full Stack Developer</h2>\r\n\r\n      <ul class=\"skills\">\r\n        <li>Front-end development</li>\r\n        <li>Back-end (Node.js) development</li>\r\n        <li>Cross-platform mobile delelopment</li>\r\n      </ul>\r\n    </div>\r\n  </div>\r\n</md-card>\r\n\r\n<md-card>\r\n  <p>I am full stack deleveloper at <a class=\"paralect-link\" href=\"http://paralect.com\">Paralect</a></p>\r\n  <p>I'm full stack developer focused on modern technologies stack capable of delivering complete web solutions. I have strong background in computer science, graduated from mechanics and mathematic faculty of the BSU in 2016, and already have:</p> \r\n  <ul class=\"experience\">\r\n    <li>4+ years of experience with programming;</li>\r\n    <li>1+ years of experience with Node.js;</li>\r\n    <li>3+ years of professional web-development experience;</li>\r\n  </ul>\r\n</md-card>"
+module.exports = "<md-card>\r\n  <div class=\"layout\">\r\n    <div class=\"photo\">\r\n      <img src=\"assets/images/photo.jpg\" alt=\"Evgeny Zhivitsa\">\r\n    </div>\r\n\r\n    <div class=\"info\">\r\n      <h1>Evgeny Zhivitsa</h1>\r\n      <h2>Full Stack Developer</h2>\r\n\r\n      <ul class=\"skills\">\r\n        <li>Front-end development</li>\r\n        <li>Back-end (Node.js) development</li>\r\n        <li>Cross-platform mobile delelopment</li>\r\n      </ul>\r\n    </div>\r\n  </div>\r\n</md-card>\r\n\r\n<md-card>\r\n  <p>Now I'm a undergraduate of the Belarusian state university and I have been doing research in the field of theory of graphs. The theme of my dissertation is \"Algorithmic aspects оф postoptimal analysis of discrete optimization problems\". My supervisor is <a href=\"http://mmf.bsu.by/ru/fakultet/kafedry/matematicheskoy-kibernetiki/sotrudniki/kuzminkg/\">Kuzmin K.G.</a></p>\r\n  <p><a href=\"assets/docs/zhivitsa_abstract.doc\">Link to the abstract on the subject \"Basis of information technologies\".</a></p>\r\n  <p><a href=\"\">Link to the presentation on the subject \"Basis of information technologies\".</a></p>\r\n</md-card>\r\n\r\n<md-card>\r\n  <p>I am full stack deleveloper at <a class=\"paralect-link\" href=\"http://paralect.com\">Paralect</a></p>\r\n  <p>I'm full stack developer focused on modern technologies stack capable of delivering complete web solutions. I have strong background in computer science, graduated from mechanics and mathematic faculty of the BSU in 2016, and already have:</p> \r\n  <ul class=\"experience\">\r\n    <li>4+ years of experience with programming;</li>\r\n    <li>1+ years of experience with Node.js;</li>\r\n    <li>3+ years of professional web-development experience;</li>\r\n  </ul>\r\n</md-card>"
 
 /***/ },
 /* 712 */
